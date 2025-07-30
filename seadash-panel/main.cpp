@@ -107,6 +107,9 @@ int main(int argc, char* argv[])
     QFontDatabase::addApplicationFont(":/fonts/Font Awesome 6 Brands-Regular-400.otf");
     QFontDatabase::addApplicationFont(":/fonts/Font Awesome 6 Free-Regular-400.otf");
     QFontDatabase::addApplicationFont(":/fonts/Font Awesome 6 Free-Solid-900.otf");
+    int fontId = QFontDatabase::addApplicationFont(":/fonts/Font Awesome 6 Free-Solid-900.otf");
+    QStringList families = QFontDatabase::applicationFontFamilies(fontId);
+    qDebug() << "Loaded font families:" << families;
 
     fa::QtAwesome awesome;
     awesome.initFontAwesome();
