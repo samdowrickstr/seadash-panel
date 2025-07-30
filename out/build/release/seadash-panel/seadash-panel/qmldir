@@ -1,0 +1,5 @@
+module seadash-panel
+typeinfo seadash-panel_app.qmltypes
+prefer :/qt/qml/seadash-panel/
+TitleBarWindow 1.0 TitleBarWindow.qml
+

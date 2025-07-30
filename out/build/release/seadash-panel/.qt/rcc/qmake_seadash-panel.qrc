@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/seadash-panel">
+    <file alias="qmldir">C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/release/seadash-panel/seadash-panel/qmldir</file>
+  </qresource>
+</RCC>
+
