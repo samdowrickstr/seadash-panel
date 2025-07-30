@@ -26,13 +26,13 @@
 			"qt6_add_qml_module",
 			"qt_add_qml_module",
 			"add_dependencies",
-			"_qt_internal_qml_copy_files_to_build_dir",
-			"qt6_target_qml_sources",
 			"_qt_internal_scan_qml_imports",
 			"_qt_internal_generate_deploy_qml_imports_script",
 			"cmake_language",
 			"_qt_internal_finalize_executable",
 			"qt6_finalize_target",
+			"_qt_internal_qml_copy_files_to_build_dir",
+			"qt6_target_qml_sources",
 			"target_include_directories",
 			"_qt_internal_qml_type_registration",
 			"target_sources",
@@ -429,69 +429,69 @@
 				"parent" : 64
 			},
 			{
-				"command" : 14,
-				"file" : 10,
-				"line" : 916,
-				"parent" : 23
-			},
-			{
-				"command" : 13,
-				"file" : 10,
-				"line" : 3503,
-				"parent" : 66
-			},
-			{
-				"command" : 12,
-				"file" : 10,
-				"line" : 2860,
-				"parent" : 67
-			},
-			{
 				"file" : 1,
 				"line" : -1,
 				"parent" : 0
 			},
 			{
-				"command" : 19,
+				"command" : 17,
 				"file" : 25,
 				"line" : 1,
-				"parent" : 69
-			},
-			{
-				"command" : 18,
-				"file" : 0,
-				"line" : 818,
-				"parent" : 70
-			},
-			{
-				"command" : 17,
-				"file" : 0,
-				"line" : 740,
-				"parent" : 71
+				"parent" : 66
 			},
 			{
 				"command" : 16,
 				"file" : 0,
-				"line" : 740,
-				"parent" : 72
+				"line" : 818,
+				"parent" : 67
 			},
 			{
 				"command" : 15,
+				"file" : 0,
+				"line" : 740,
+				"parent" : 68
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 740,
+				"parent" : 69
+			},
+			{
+				"command" : 13,
 				"file" : 10,
 				"line" : 4401,
-				"parent" : 73
+				"parent" : 70
 			},
 			{
 				"command" : 12,
 				"file" : 10,
 				"line" : 4176,
+				"parent" : 71
+			},
+			{
+				"command" : 19,
+				"file" : 10,
+				"line" : 916,
+				"parent" : 23
+			},
+			{
+				"command" : 18,
+				"file" : 10,
+				"line" : 3503,
+				"parent" : 73
+			},
+			{
+				"command" : 12,
+				"file" : 10,
+				"line" : 2860,
 				"parent" : 74
 			},
 			{
-				"command" : 13,
+				"command" : 18,
 				"file" : 10,
 				"line" : 3497,
-				"parent" : 66
+				"parent" : 73
 			},
 			{
 				"command" : 12,
@@ -569,13 +569,13 @@
 				"command" : 22,
 				"file" : 10,
 				"line" : 3205,
-				"parent" : 66
+				"parent" : 73
 			},
 			{
 				"command" : 28,
 				"file" : 10,
 				"line" : 3342,
-				"parent" : 66
+				"parent" : 73
 			},
 			{
 				"command" : 22,
@@ -587,13 +587,13 @@
 				"command" : 22,
 				"file" : 10,
 				"line" : 3398,
-				"parent" : 66
+				"parent" : 73
 			},
 			{
 				"command" : 27,
 				"file" : 10,
 				"line" : 3519,
-				"parent" : 66
+				"parent" : 73
 			},
 			{
 				"command" : 26,
@@ -617,7 +617,7 @@
 				"command" : 29,
 				"file" : 0,
 				"line" : 812,
-				"parent" : 70
+				"parent" : 67
 			},
 			{
 				"command" : 22,
@@ -1049,12 +1049,16 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 68,
-			"id" : "seadash-panel_app_copy_res::@18e0e70756799d14a71e"
+			"backtrace" : 72,
+			"id" : "seadash-panel_app_qmlimportscan::@18e0e70756799d14a71e"
 		},
 		{
 			"backtrace" : 75,
-			"id" : "seadash-panel_app_qmlimportscan::@18e0e70756799d14a71e"
+			"id" : "seadash-panel_app_copy_res::@18e0e70756799d14a71e"
+		},
+		{
+			"backtrace" : 77,
+			"id" : "seadash-panel_app_copy_qml::@18e0e70756799d14a71e"
 		},
 		{
 			"id" : "seadash-panel_app_autogen_timestamp_deps::@18e0e70756799d14a71e"
@@ -1062,10 +1066,6 @@
 		{
 			"backtrace" : 0,
 			"id" : "seadash-panel_app_autogen::@18e0e70756799d14a71e"
-		},
-		{
-			"backtrace" : 77,
-			"id" : "seadash-panel_app_copy_qml::@18e0e70756799d14a71e"
 		}
 	],
 	"id" : "seadash-panel_app::@18e0e70756799d14a71e",

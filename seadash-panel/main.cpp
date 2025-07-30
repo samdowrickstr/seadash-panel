@@ -102,6 +102,11 @@ int main(int argc, char* argv[])
 
     QGuiApplication app(argc, argv);
 
+    // Register font files from qrc
+    QFontDatabase::addApplicationFont(":/fonts/Font Awesome 6 Brands-Regular-400.otf");
+    QFontDatabase::addApplicationFont(":/fonts/Font Awesome 6 Free-Regular-400.otf");
+    QFontDatabase::addApplicationFont(":/fonts/Font Awesome 6 Free-Solid-900.otf");
+
     fa::QtAwesome awesome;
     awesome.initFontAwesome();
 
