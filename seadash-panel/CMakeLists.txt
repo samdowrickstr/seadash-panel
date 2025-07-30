@@ -26,7 +26,7 @@ else()
     qt_add_resources(PROJECT_SOURCES qml.qrc QtAwesome/QtAwesomeFree.qrc)
 endif()
 
-qt_add_executable(${PROJECT_NAME} ${PROJECT_SOURCES})
+qt_add_executable(${PROJECT_NAME}_app ${PROJECT_SOURCES})
 
 if(QT_VERSION VERSION_GREATER_EQUAL 6.2)
     qt_add_qml_module(${PROJECT_NAME}

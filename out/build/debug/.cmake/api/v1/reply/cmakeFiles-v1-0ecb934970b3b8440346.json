@@ -5841,6 +5841,10 @@
 		},
 		{
 			"isExternal" : true,
+			"path" : "C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in"
+		},
+		{
+			"isExternal" : true,
 			"path" : "C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in"
 		},
 		{
@@ -5854,6 +5858,10 @@
 		{
 			"isExternal" : true,
 			"path" : "C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "out/build/debug/seadash-panel/seadash-panelplugin_seadash_panelPlugin_in.cpp"
 		}
 	],
 	"kind" : "cmakeFiles",

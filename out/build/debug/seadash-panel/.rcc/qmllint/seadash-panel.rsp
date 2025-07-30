@@ -1,6 +1,6 @@
 --bare
 -I
-C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel
+C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug
 -I
 C:/Qt/6.9.1/msvc2022_64/qml
 --resource

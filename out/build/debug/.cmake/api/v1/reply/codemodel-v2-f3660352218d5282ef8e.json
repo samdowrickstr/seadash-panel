@@ -48,7 +48,13 @@
 						12,
 						13,
 						14,
-						15
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
 					]
 				}
 			],
@@ -79,7 +85,13 @@
 						12,
 						13,
 						14,
-						15
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
 					]
 				}
 			],
@@ -129,9 +141,37 @@
 				},
 				{
 					"directoryIndex" : 1,
+					"id" : "qt_internal_plugins::@18e0e70756799d14a71e",
+					"jsonFile" : "target-qt_internal_plugins-Debug-0fba82d2a4117601ea9c.json",
+					"name" : "qt_internal_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
 					"id" : "seadash-panel::@18e0e70756799d14a71e",
-					"jsonFile" : "target-seadash-panel-Debug-4bcf385ce5127ff32d07.json",
+					"jsonFile" : "target-seadash-panel-Debug-5190fe4c7baf6a7e3dc7.json",
 					"name" : "seadash-panel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "seadash-panel_app::@18e0e70756799d14a71e",
+					"jsonFile" : "target-seadash-panel_app-Debug-4b10654b75515b9997e0.json",
+					"name" : "seadash-panel_app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "seadash-panel_app_autogen::@18e0e70756799d14a71e",
+					"jsonFile" : "target-seadash-panel_app_autogen-Debug-056f81472329292d14eb.json",
+					"name" : "seadash-panel_app_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "seadash-panel_app_autogen_timestamp_deps::@18e0e70756799d14a71e",
+					"jsonFile" : "target-seadash-panel_app_autogen_timestamp_deps-Debug-1f2379beffea512f97b9.json",
+					"name" : "seadash-panel_app_autogen_timestamp_deps",
 					"projectIndex" : 0
 				},
 				{
@@ -144,7 +184,7 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "seadash-panel_autogen_timestamp_deps::@18e0e70756799d14a71e",
-					"jsonFile" : "target-seadash-panel_autogen_timestamp_deps-Debug-4b006f7a65d48697a342.json",
+					"jsonFile" : "target-seadash-panel_autogen_timestamp_deps-Debug-08cd4f538aa8f2f0e7a1.json",
 					"name" : "seadash-panel_autogen_timestamp_deps",
 					"projectIndex" : 0
 				},
@@ -160,13 +200,6 @@
 					"id" : "seadash-panel_copy_res::@18e0e70756799d14a71e",
 					"jsonFile" : "target-seadash-panel_copy_res-Debug-5d2c0c75e5f23ddb9a18.json",
 					"name" : "seadash-panel_copy_res",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 1,
-					"id" : "seadash-panel_qmlimportscan::@18e0e70756799d14a71e",
-					"jsonFile" : "target-seadash-panel_qmlimportscan-Debug-a1d35ccb2e9133f29ba6.json",
-					"name" : "seadash-panel_qmlimportscan",
 					"projectIndex" : 0
 				},
 				{
@@ -195,6 +228,27 @@
 					"id" : "seadash-panel_qmltyperegistration::@18e0e70756799d14a71e",
 					"jsonFile" : "target-seadash-panel_qmltyperegistration-Debug-8997f64475a1758664f9.json",
 					"name" : "seadash-panel_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "seadash-panelplugin::@18e0e70756799d14a71e",
+					"jsonFile" : "target-seadash-panelplugin-Debug-06aa88bca09f7a0a0676.json",
+					"name" : "seadash-panelplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "seadash-panelplugin_autogen::@18e0e70756799d14a71e",
+					"jsonFile" : "target-seadash-panelplugin_autogen-Debug-a9586949ef371330523b.json",
+					"name" : "seadash-panelplugin_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "seadash-panelplugin_autogen_timestamp_deps::@18e0e70756799d14a71e",
+					"jsonFile" : "target-seadash-panelplugin_autogen_timestamp_deps-Debug-0b54f658c355c2c1c461.json",
+					"name" : "seadash-panelplugin_autogen_timestamp_deps",
 					"projectIndex" : 0
 				}
 			]

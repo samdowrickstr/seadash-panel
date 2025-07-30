@@ -1,6 +1,6 @@
 {
 	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
-	"BUILD_DIR" : "C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel/seadash-panel_autogen",
+	"BUILD_DIR" : "C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel/seadash-panel_app_autogen",
 	"CMAKE_BINARY_DIR" : "C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug",
 	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel",
 	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/seadash-panel",
@@ -1381,32 +1381,41 @@
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel/seadash-panel_autogen/deps",
-	"DEP_FILE_RULE_NAME" : "seadash-panel_autogen/timestamp",
-	"HEADERS" : [],
+	"DEP_FILE" : "C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel/seadash-panel_app_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "seadash-panel_app_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/Sam.Dowrick/Documents/GitHub/MFDLauncher/MFDLauncher/AppLauncher.h",
+			"MU",
+			"5DV2LBFTTU/moc_AppLauncher.cpp",
+			null
+		],
+		[
+			"C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/seadash-panel/QtAwesome/QtAwesome.h",
+			"MU",
+			"3QVQ3WXC3W/moc_QtAwesome.cpp",
+			null
+		],
+		[
+			"C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/seadash-panel/QtAwesome/QtAwesomeAnim.h",
+			"MU",
+			"3QVQ3WXC3W/moc_QtAwesomeAnim.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel/seadash-panel_autogen/include",
-	"MOC_COMPILATION_FILE" : "C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel/seadash-panel_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel/seadash-panel_app_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel/seadash-panel_app_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"QT_CORE_LIB",
-		"QT_GUI_LIB",
-		"QT_NETWORK_LIB",
-		"QT_OPENGL_LIB",
-		"QT_QMLINTEGRATION_LIB",
-		"QT_QMLMETA_LIB",
-		"QT_QMLMODELS_LIB",
-		"QT_QMLWORKERSCRIPT_LIB",
-		"QT_QML_LIB",
-		"QT_QUICK_LIB",
-		"QT_WIDGETS_LIB",
 		"UNICODE",
 		"WIN32",
 		"WIN64",
 		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
 		"_UNICODE",
-		"_WIN64",
-		"seadash_panel_EXPORTS"
+		"_WIN64"
 	],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -1417,24 +1426,9 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/seadash-panel",
-		"C:/Qt/6.9.1/msvc2022_64/include/QtQml/6.9.1",
-		"C:/Qt/6.9.1/msvc2022_64/include/QtQml/6.9.1/QtQml",
-		"C:/Qt/6.9.1/msvc2022_64/include/QtCore/6.9.1",
-		"C:/Qt/6.9.1/msvc2022_64/include/QtCore/6.9.1/QtCore",
 		"C:/Qt/6.9.1/msvc2022_64/include/QtCore",
 		"C:/Qt/6.9.1/msvc2022_64/include",
-		"C:/Qt/6.9.1/msvc2022_64/mkspecs/win32-msvc",
-		"C:/Qt/6.9.1/msvc2022_64/include/QtQml",
-		"C:/Qt/6.9.1/msvc2022_64/include/QtQmlIntegration",
-		"C:/Qt/6.9.1/msvc2022_64/include/QtNetwork",
-		"C:/Qt/6.9.1/msvc2022_64/include/QtQuick",
-		"C:/Qt/6.9.1/msvc2022_64/include/QtGui",
-		"C:/Qt/6.9.1/msvc2022_64/include/QtQmlMeta",
-		"C:/Qt/6.9.1/msvc2022_64/include/QtQmlModels",
-		"C:/Qt/6.9.1/msvc2022_64/include/QtQmlWorkerScript",
-		"C:/Qt/6.9.1/msvc2022_64/include/QtOpenGL",
-		"C:/Qt/6.9.1/msvc2022_64/include/QtWidgets"
+		"C:/Qt/6.9.1/msvc2022_64/mkspecs/win32-msvc"
 	],
 	"MOC_MACRO_NAMES" : 
 	[
@@ -1445,7 +1439,7 @@
 		"Q_GADGET_EXPORT",
 		"Q_ENUM_NS"
 	],
-	"MOC_OPTIONS" : [ "--output-json" ],
+	"MOC_OPTIONS" : [],
 	"MOC_PATH_PREFIX" : false,
 	"MOC_PREDEFS_CMD" : [],
 	"MOC_PREDEFS_FILE" : "",
@@ -1458,18 +1452,39 @@
 		"C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel/.rcc/qmlcache/seadash-panel_qmlcache_loader.cpp",
 		"C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel/qrc_QtAwesomeFree.cpp",
 		"C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel/qrc_qml.cpp",
-		"C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel/seadash-panel_app_autogen/mocs_compilation.cpp",
 		"C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel/seadash-panel_qmltyperegistrations.cpp"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 12,
-	"PARSE_CACHE_FILE" : "C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel/CMakeFiles/seadash-panel_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel/CMakeFiles/seadash-panel_app_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "C:/Qt/6.9.1/msvc2022_64/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "C:/Qt/6.9.1/msvc2022_64/bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 9,
-	"SETTINGS_FILE" : "C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel/CMakeFiles/seadash-panel_autogen.dir/AutogenUsed.txt",
-	"SOURCES" : [],
+	"SETTINGS_FILE" : "C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel/CMakeFiles/seadash-panel_app_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"C:/Users/Sam.Dowrick/Documents/GitHub/MFDLauncher/MFDLauncher/AppLauncher.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/seadash-panel/QtAwesome/QtAwesome.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/seadash-panel/QtAwesome/QtAwesomeAnim.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/seadash-panel/main.cpp",
+			"MU",
+			null
+		]
+	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : 
@@ -1480,7 +1495,6 @@
 		"C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel/.rcc/qmlcache/seadash-panel_qmlcache_loader.cpp",
 		"C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel/qrc_QtAwesomeFree.cpp",
 		"C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel/qrc_qml.cpp",
-		"C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel/seadash-panel_app_autogen/mocs_compilation.cpp",
 		"C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel/seadash-panel_qmltyperegistrations.cpp"
 	],
 	"UIC_UI_FILES" : [],

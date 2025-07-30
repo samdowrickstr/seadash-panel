@@ -4,8 +4,6 @@ C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/seadash-panel
 -output-file
 C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel/.qt/qml_imports/seadash-panel_conf.cmake
 -importPath
-C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel/seadash-panel
--importPath
 C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel
 -importPath
 C:/Qt/6.9.1/msvc2022_64/qml

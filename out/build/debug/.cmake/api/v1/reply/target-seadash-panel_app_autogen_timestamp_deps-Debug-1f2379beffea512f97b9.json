@@ -1,0 +1,31 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"seadash-panel/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"folder" : 
+	{
+		"name" : "QtInternalTargets"
+	},
+	"id" : "seadash-panel_app_autogen_timestamp_deps::@18e0e70756799d14a71e",
+	"isGeneratorProvided" : true,
+	"name" : "seadash-panel_app_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "seadash-panel",
+		"source" : "seadash-panel"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,8 @@
+module seadash-panel
+linktarget seadash-panelplugin
+optional plugin seadash-panelplugin
+classname seadash_panelPlugin
+typeinfo seadash-panel.qmltypes
+prefer :/qt/qml/seadash-panel/
+TitleBarWindow 1.0 TitleBarWindow.qml
+
