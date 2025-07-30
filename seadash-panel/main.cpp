@@ -104,21 +104,32 @@ int main(int argc, char* argv[])
     QGuiApplication app(argc, argv);
 
     // Register font files from qrc
-    QFontDatabase::addApplicationFont(":/fonts/Font Awesome 6 Brands-Regular-400.otf");
-    QFontDatabase::addApplicationFont(":/fonts/Font Awesome 6 Free-Regular-400.otf");
-    QFontDatabase::addApplicationFont(":/fonts/Font Awesome 6 Free-Solid-900.otf");
-    int fontId = QFontDatabase::addApplicationFont(":/fonts/Font Awesome 6 Free-Solid-900.otf");
-    QStringList families = QFontDatabase::applicationFontFamilies(fontId);
-    qDebug() << "Loaded font families:" << families;
+    int idBrands = QFontDatabase::addApplicationFont(":/fonts/Font Awesome 6 Brands-Regular-400.otf");
+    int idRegular = QFontDatabase::addApplicationFont(":/fonts/Font Awesome 6 Free-Regular-400.otf");
+    int idSolid = QFontDatabase::addApplicationFont(":/fonts/Font Awesome 6 Free-Solid-900.otf");
 
+    QStringList brandsFamilies = QFontDatabase::applicationFontFamilies(idBrands);
+    QStringList regularFamilies = QFontDatabase::applicationFontFamilies(idRegular);
+    QStringList solidFamilies = QFontDatabase::applicationFontFamilies(idSolid);
+
+    qDebug() << "Brands font families:" << brandsFamilies;
+    qDebug() << "Regular font families:" << regularFamilies;
+    qDebug() << "Solid font families:" << solidFamilies;
+
+    QString faBrandsFont = brandsFamilies.isEmpty() ? "Font Awesome 6 Brands" : brandsFamilies.first();
+    QString faRegularFont = regularFamilies.isEmpty() ? "Font Awesome 6 Free" : regularFamilies.first();
+    QString faSolidFont = solidFamilies.isEmpty() ? "Font Awesome 6 Free Solid" : solidFamilies.first();
+
+    // Init QtAwesome if you're using it for icons elsewhere
     fa::QtAwesome awesome;
     awesome.initFontAwesome();
 
+    // Set context properties
     QQmlApplicationEngine engine;
     engine.rootContext()->setContextProperty("qtawesome", &awesome);
-    engine.rootContext()->setContextProperty("faSolidFontFamily", awesome.fontName(fa::fa_solid));
-    engine.rootContext()->setContextProperty("faRegularFontFamily", awesome.fontName(fa::fa_regular));
-    engine.rootContext()->setContextProperty("faBrandsFontFamily", awesome.fontName(fa::fa_brands));
+    engine.rootContext()->setContextProperty("faSolidFontFamily", faSolidFont);
+    engine.rootContext()->setContextProperty("faRegularFontFamily", faRegularFont);
+    engine.rootContext()->setContextProperty("faBrandsFontFamily", faBrandsFont);
 
     engine.load(QUrl(QStringLiteral("qrc:/qml/TitleBarWindow.qml")));
     if (engine.rootObjects().isEmpty())

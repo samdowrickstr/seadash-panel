@@ -41,7 +41,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 3497,
+				"line" : 3503,
 				"parent" : 3
 			},
 			{
@@ -53,7 +53,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 3503,
+				"line" : 3497,
 				"parent" : 3
 			},
 			{
@@ -67,16 +67,16 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 5,
-			"id" : "seadash-panel_app_copy_qml::@18e0e70756799d14a71e"
+			"backtrace" : 0,
+			"id" : "seadash-panel_app_qmlimportscan::@18e0e70756799d14a71e"
 		},
 		{
-			"backtrace" : 7,
+			"backtrace" : 5,
 			"id" : "seadash-panel_app_copy_res::@18e0e70756799d14a71e"
 		},
 		{
-			"backtrace" : 0,
-			"id" : "seadash-panel_app_qmlimportscan::@18e0e70756799d14a71e"
+			"backtrace" : 7,
+			"id" : "seadash-panel_app_copy_qml::@18e0e70756799d14a71e"
 		}
 	],
 	"folder" : 
