@@ -28,25 +28,36 @@ Window {
                 Layout.fillWidth: true
                 Layout.alignment: Qt.AlignVCenter
 
-                Row {
+                MouseArea {
                     anchors.left: parent.left
                     anchors.verticalCenter: parent.verticalCenter
-                    spacing: 8
-
-                    Label {
-                        anchors.verticalCenter: parent.verticalCenter
-                        text: "\uf0ac"                     // globe icon
-                        font.family: faSolidFontFamily
-                        font.pixelSize: 22
-                        color: "white"
+                    width: coordRow.implicitWidth
+                    height: coordRow.implicitHeight
+                    hoverEnabled: true
+                    cursorShape: Qt.PointingHandCursor
+                    onClicked: {
+                        console.log("GPS settings clicked")
                     }
 
-                    Label {
-                        anchors.verticalCenter: parent.verticalCenter
-                        id: coordLabel
-                        text: "5043.599'N 00032.461'W"
-                        color: "white"
-                        font.pixelSize: 22
+                    Row {
+                        id: coordRow
+                        spacing: 8
+
+                        Label {
+                            anchors.verticalCenter: parent.verticalCenter
+                            text: "\uf3c5"
+                            font.family: faSolidFontFamily
+                            font.pixelSize: 22
+                            color: "white"
+                        }
+
+                        Label {
+                            anchors.verticalCenter: parent.verticalCenter
+                            id: coordLabel
+                            text: "50\u00B043.599'N 000\u00B032.461'W"
+                            color: "white"
+                            font.pixelSize: 22
+                        }
                     }
                 }
             }
@@ -86,23 +97,49 @@ Window {
                     anchors.verticalCenter: parent.verticalCenter
                     spacing: 10
 
-                    Label {
-                        text: "\uf293"
-                        font.family: faSolidFontFamily
-                        font.pixelSize: 20
-                        color: "white"
+                    MouseArea {
+                        width: 24
+                        height: 24
+                        onClicked: console.log("Bluetooth icon clicked")
+                        cursorShape: Qt.PointingHandCursor
+
+                        Label {
+                            anchors.centerIn: parent
+                            text: "\uf293" // Bluetooth
+                            font.family: faSolidFontFamily
+                            font.pixelSize: 20
+                            color: "white"
+                        }
                     }
-                    Label {
-                        text: "\uf1eb"
-                        font.family: faSolidFontFamily
-                        font.pixelSize: 20
-                        color: "white"
+
+                    MouseArea {
+                        width: 24
+                        height: 24
+                        onClicked: console.log("Wi-Fi icon clicked")
+                        cursorShape: Qt.PointingHandCursor
+
+                        Label {
+                            anchors.centerIn: parent
+                            text: "\uf1eb" // Wi-Fi
+                            font.family: faSolidFontFamily
+                            font.pixelSize: 20
+                            color: "white"
+                        }
                     }
-                    Label {
-                        text: "\uf013"
-                        font.family: faSolidFontFamily
-                        font.pixelSize: 20
-                        color: "white"
+
+                    MouseArea {
+                        width: 24
+                        height: 24
+                        onClicked: console.log("Settings icon clicked")
+                        cursorShape: Qt.PointingHandCursor
+
+                        Label {
+                            anchors.centerIn: parent
+                            text: "\uf013" // Settings
+                            font.family: faSolidFontFamily
+                            font.pixelSize: 20
+                            color: "white"
+                        }
                     }
                 }
             }

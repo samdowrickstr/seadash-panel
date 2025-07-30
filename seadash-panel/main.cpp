@@ -50,7 +50,6 @@ static void shapeWindowWindows(QWindow* w,
         mobRadius
     );
 
-
     HRGN rTotal = CreateRectRgn(0, 0, 0, 0);
     CombineRgn(rTotal, rBar, rMob, RGN_OR);
 
@@ -62,59 +61,36 @@ static void shapeWindowWindows(QWindow* w,
 #endif
 
 #ifdef Q_OS_UNIX
-#if defined(QT_WIDGETS_LIB) || defined(QT_GUI_LIB)
-#include <QX11Info>
-#include <X11/Xlib.h>
-#include <X11/Xatom.h>
-#include <X11/extensions/shape.h>
+#ifndef Q_OS_MAC
 
-static void registerDockX11(QWindow* w, int barHeight)
+static void registerDockWayland(QWindow* w, int barHeight)
 {
-    Display* dpy = QX11Info::display();
-    ::Window win = w->winId();
+    // On Wayland, most window metadata is handled by Qt automatically.
+    // You can use special protocols like wlr-layer-shell in the future,
+    // but for now Qt::Tool | FramelessWindowHint | StayOnTop should suffice.
 
-    Atom atomWindowType = XInternAtom(dpy, "_NET_WM_WINDOW_TYPE", False);
-    Atom atomDock = XInternAtom(dpy, "_NET_WM_WINDOW_TYPE_DOCK", False);
-    XChangeProperty(dpy, win, atomWindowType, XA_ATOM, 32, PropModeReplace,
-        reinterpret_cast<unsigned char*>(&atomDock), 1);
-
-    long strut[12] = {
-        0, 0,
-        barHeight, 0,
-        0, 0, 0, 0,
-        0, QX11Info::appScreenGeometry().width(),
-        0, 0
-    };
-    Atom strutAtom = XInternAtom(dpy, "_NET_WM_STRUT_PARTIAL", False);
-    XChangeProperty(dpy, win, strutAtom, XA_CARDINAL, 32, PropModeReplace,
-        reinterpret_cast<unsigned char*>(strut), 12);
+    w->setFlags(Qt::FramelessWindowHint | Qt::Tool | Qt::WindowStaysOnTopHint);
+    w->setTitle("SeaDash Panel");
+    w->setProperty("panelWindow", true);  // Optional property for QML/compositor
 }
 
-static void shapeWindowX11(QWindow* w,
+static void shapeWindowWayland(QWindow* w,
     int barHeight,
     int mobX, int mobWidth,
     int winWidth, int winHeight)
 {
-    Display* dpy = QX11Info::display();
-    ::Window win = w->winId();
+    // No server-side shaping in Wayland — use QML shapes and transparency instead
+    Q_UNUSED(w)
+        Q_UNUSED(barHeight)
+        Q_UNUSED(mobX)
+        Q_UNUSED(mobWidth)
+        Q_UNUSED(winWidth)
+        Q_UNUSED(winHeight)
 
-    XRectangle rects[2];
-    rects[0].x = 0;
-    rects[0].y = 0;
-    rects[0].width = winWidth;
-    rects[0].height = barHeight;
-
-    rects[1].x = mobX;
-    rects[1].y = 0;
-    rects[1].width = mobWidth;
-    rects[1].height = winHeight;
-
-    XShapeCombineRectangles(dpy, win,
-        ShapeBounding,
-        0, 0,
-        rects, 2,
-        ShapeSet, Unsorted);
+        // On Wayland, use Qt Quick Rectangle + radius + opacity mask
+        // Nothing to do here on the C++ side
 }
+
 #endif
 #endif
 
@@ -155,10 +131,8 @@ int main(int argc, char* argv[])
                 shapeWindowWindows(w, barHeight, pillX, pillWidth, w->width(), windowHeight, pillRadius);
 
 #elif defined(Q_OS_UNIX) && !defined(Q_OS_MAC)
-#if defined(QT_WIDGETS_LIB) || defined(QT_GUI_LIB)
-                registerDockX11(w, barHeight);
-                shapeWindowX11(w, barHeight, pillX, pillWidth, w->width(), windowHeight);
-#endif
+                registerDockWayland(w, barHeight);
+                shapeWindowWayland(w, barHeight, pillX, pillWidth, w->width(), windowHeight);
 #endif
 
                 break;

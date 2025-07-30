@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 12,
-                        "durationMicroseconds": 170,
+                        "durationMicroseconds": 171,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 9
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 12,
-                        "durationMicroseconds": 163,
+                        "durationMicroseconds": 168,
                         "errorMessage": "",
                         "functionName": "flags",
                         "line": 13
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 22,
-                        "durationMicroseconds": 62,
+                        "durationMicroseconds": 58,
                         "errorMessage": "",
                         "functionName": "top",
                         "line": 17
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 49,
+                        "durationMicroseconds": 44,
                         "errorMessage": "",
                         "functionName": "left",
                         "line": 18
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 24,
-                        "durationMicroseconds": 44,
+                        "durationMicroseconds": 43,
                         "errorMessage": "",
                         "functionName": "right",
                         "line": 19
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 26,
+                        "durationMicroseconds": 37,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 24
@@ -54,15 +54,47 @@
                     {
                         "codegenSuccessful": true,
                         "column": 35,
-                        "durationMicroseconds": 48,
+                        "durationMicroseconds": 42,
                         "errorMessage": "",
                         "functionName": "alignment",
                         "line": 29
                     },
                     {
                         "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 43,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 34
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 29,
+                        "durationMicroseconds": 43,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 35
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 34,
+                        "durationMicroseconds": 48,
+                        "errorMessage": "",
+                        "functionName": "cursorShape",
+                        "line": 37
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 77,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 38
+                    },
+                    {
+                        "codegenSuccessful": true,
                         "column": 35,
-                        "durationMicroseconds": 54,
+                        "durationMicroseconds": 59,
                         "errorMessage": "",
                         "functionName": "left",
                         "line": 32
@@ -70,58 +102,58 @@
                     {
                         "codegenSuccessful": true,
                         "column": 45,
-                        "durationMicroseconds": 41,
+                        "durationMicroseconds": 43,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 33
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 49,
+                        "column": 53,
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"verticalCenter\".",
                         "functionName": "verticalCenter",
-                        "line": 37
+                        "line": 47
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 38,
+                        "column": 42,
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"family\".",
                         "functionName": "family",
-                        "line": 39
+                        "line": 49
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 49,
+                        "column": 53,
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"verticalCenter\".",
                         "functionName": "verticalCenter",
-                        "line": 45
+                        "line": 55
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 46,
-                        "durationMicroseconds": 168,
+                        "durationMicroseconds": 155,
                         "errorMessage": "",
                         "functionName": "currentTime",
-                        "line": 59
+                        "line": 70
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 35,
-                        "durationMicroseconds": 66,
+                        "durationMicroseconds": 48,
                         "errorMessage": "",
                         "functionName": "alignment",
-                        "line": 57
+                        "line": 68
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 34,
-                        "durationMicroseconds": 164,
+                        "durationMicroseconds": 169,
                         "errorMessage": "",
                         "functionName": "onTriggered",
-                        "line": 65
+                        "line": 76
                     },
                     {
                         "codegenSuccessful": false,
@@ -129,7 +161,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"text\".",
                         "functionName": "text",
-                        "line": 73
+                        "line": 84
                     },
                     {
                         "codegenSuccessful": false,
@@ -137,95 +169,167 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"centerIn\".",
                         "functionName": "centerIn",
-                        "line": 72
+                        "line": 83
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 35,
-                        "durationMicroseconds": 38,
+                        "durationMicroseconds": 43,
                         "errorMessage": "",
                         "functionName": "alignment",
-                        "line": 82
+                        "line": 93
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 36,
-                        "durationMicroseconds": 57,
+                        "durationMicroseconds": 59,
                         "errorMessage": "",
                         "functionName": "right",
-                        "line": 85
+                        "line": 96
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 45,
-                        "durationMicroseconds": 38,
+                        "durationMicroseconds": 39,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
-                        "line": 86
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 38,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"family\".",
-                        "functionName": "family",
-                        "line": 91
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 38,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"family\".",
-                        "functionName": "family",
                         "line": 97
                     },
                     {
-                        "codegenSuccessful": false,
-                        "column": 38,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"family\".",
-                        "functionName": "family",
+                        "codegenSuccessful": true,
+                        "column": 36,
+                        "durationMicroseconds": 63,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
                         "line": 103
                     },
                     {
                         "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "",
+                        "functionName": "cursorShape",
+                        "line": 104
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 47,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"centerIn\".",
+                        "functionName": "centerIn",
+                        "line": 107
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 42,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"family\".",
+                        "functionName": "family",
+                        "line": 109
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 36,
+                        "durationMicroseconds": 86,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 118
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 39,
+                        "errorMessage": "",
+                        "functionName": "cursorShape",
+                        "line": 119
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 47,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"centerIn\".",
+                        "functionName": "centerIn",
+                        "line": 122
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 42,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"family\".",
+                        "functionName": "family",
+                        "line": 124
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 36,
+                        "durationMicroseconds": 67,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 133
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 51,
+                        "errorMessage": "",
+                        "functionName": "cursorShape",
+                        "line": 134
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 47,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"centerIn\".",
+                        "functionName": "centerIn",
+                        "line": 137
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 42,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"family\".",
+                        "functionName": "family",
+                        "line": 139
+                    },
+                    {
+                        "codegenSuccessful": true,
                         "column": 22,
-                        "durationMicroseconds": 54,
+                        "durationMicroseconds": 42,
                         "errorMessage": "",
                         "functionName": "top",
-                        "line": 121
+                        "line": 158
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 41,
+                        "durationMicroseconds": 45,
                         "errorMessage": "",
                         "functionName": "left",
-                        "line": 122
+                        "line": 159
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 29,
-                        "durationMicroseconds": 43,
+                        "durationMicroseconds": 41,
                         "errorMessage": "",
                         "functionName": "bottom",
-                        "line": 127
+                        "line": 164
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 49,
+                        "durationMicroseconds": 35,
                         "errorMessage": "",
                         "functionName": "left",
-                        "line": 128
+                        "line": 165
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 28,
-                        "durationMicroseconds": 51,
+                        "durationMicroseconds": 49,
                         "errorMessage": "",
                         "functionName": "right",
-                        "line": 129
+                        "line": 166
                     },
                     {
                         "codegenSuccessful": false,
@@ -233,7 +337,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"family\".",
                         "functionName": "family",
-                        "line": 135
+                        "line": 172
                     },
                     {
                         "codegenSuccessful": false,
@@ -241,7 +345,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"horizontalCenter\".",
                         "functionName": "horizontalCenter",
-                        "line": 139
+                        "line": 176
                     },
                     {
                         "codegenSuccessful": false,
@@ -249,7 +353,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"horizontalCenter\".",
                         "functionName": "horizontalCenter",
-                        "line": 147
+                        "line": 184
                     },
                     {
                         "codegenSuccessful": true,
@@ -257,23 +361,23 @@
                         "durationMicroseconds": 65,
                         "errorMessage": "",
                         "functionName": "onClicked",
-                        "line": 153
+                        "line": 190
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 26,
-                        "durationMicroseconds": 41,
+                        "durationMicroseconds": 42,
                         "errorMessage": "",
                         "functionName": "cursorShape",
-                        "line": 154
+                        "line": 191
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 38,
+                        "durationMicroseconds": 23,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 152
+                        "line": 189
                     }
                 ],
                 "filePath": "C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/seadash-panel/TitleBarWindow.qml"
