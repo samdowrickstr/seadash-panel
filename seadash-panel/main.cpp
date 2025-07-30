@@ -2,6 +2,7 @@
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
 #include <QWindow>
+#include <QFontDatabase>
 
 #include "QtAwesome/QtAwesome.h"
 
