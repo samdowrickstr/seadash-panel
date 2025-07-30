@@ -40,7 +40,7 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "module_seadash-panel_aotstats_target::@6890427a1f51a3e7e1df"
+			"id" : "module_seadash-panel_app_aotstats_target::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "all_aotstats::@6890427a1f51a3e7e1df",
@@ -92,7 +92,7 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "out/build/debug/seadash-panel/.rcc/qmlcache/module_seadash-panel.aotstats.rule",
+			"path" : "out/build/debug/seadash-panel/.rcc/qmlcache/module_seadash-panel_app.aotstats.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

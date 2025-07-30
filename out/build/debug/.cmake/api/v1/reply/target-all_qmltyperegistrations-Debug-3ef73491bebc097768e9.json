@@ -23,7 +23,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 32,
+				"line" : 35,
 				"parent" : 0
 			},
 			{
@@ -56,7 +56,7 @@
 	[
 		{
 			"backtrace" : 5,
-			"id" : "seadash-panel_qmltyperegistration::@18e0e70756799d14a71e"
+			"id" : "seadash-panel_app_qmltyperegistration::@18e0e70756799d14a71e"
 		}
 	],
 	"folder" : 

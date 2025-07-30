@@ -48,15 +48,15 @@
 	[
 		{
 			"backtrace" : 4,
-			"id" : "seadash-panel_qmltyperegistration::@18e0e70756799d14a71e"
+			"id" : "seadash-panel_app_qmltyperegistration::@18e0e70756799d14a71e"
 		}
 	],
 	"folder" : 
 	{
 		"name" : "QtInternalTargets"
 	},
-	"id" : "module_seadash-panel_aotstats_target::@6890427a1f51a3e7e1df",
-	"name" : "module_seadash-panel_aotstats_target",
+	"id" : "module_seadash-panel_app_aotstats_target::@6890427a1f51a3e7e1df",
+	"name" : "module_seadash-panel_app_aotstats_target",
 	"paths" : 
 	{
 		"build" : ".",
@@ -85,19 +85,19 @@
 		{
 			"backtrace" : 3,
 			"isGenerated" : true,
-			"path" : "out/build/debug/CMakeFiles/module_seadash-panel_aotstats_target",
+			"path" : "out/build/debug/CMakeFiles/module_seadash-panel_app_aotstats_target",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "out/build/debug/CMakeFiles/module_seadash-panel_aotstats_target.rule",
+			"path" : "out/build/debug/CMakeFiles/module_seadash-panel_app_aotstats_target.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "out/build/debug/seadash-panel/.rcc/qmlcache/module_seadash-panel.aotstats.rule",
+			"path" : "out/build/debug/seadash-panel/.rcc/qmlcache/module_seadash-panel_app.aotstats.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

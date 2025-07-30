@@ -5,7 +5,7 @@
 		"commands" : 
 		[
 			"add_custom_target",
-			"_qt_internal_qml_copy_files_to_build_dir",
+			"_qt_internal_target_enable_qmllint",
 			"qt6_target_qml_sources",
 			"qt6_add_qml_module",
 			"qt_add_qml_module"
@@ -23,7 +23,7 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 32,
+				"line" : 35,
 				"parent" : 0
 			},
 			{
@@ -41,23 +41,29 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 3503,
+				"line" : 3228,
 				"parent" : 3
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 2841,
+				"line" : 1496,
 				"parent" : 4
 			}
 		]
 	},
+	"dependencies" : 
+	[
+		{
+			"id" : "all_qmltyperegistrations::@18e0e70756799d14a71e"
+		}
+	],
 	"folder" : 
 	{
-		"name" : "QtInternalTargets"
+		"name" : "QtInternalTargets/QmlLinter"
 	},
-	"id" : "seadash-panel_copy_res::@18e0e70756799d14a71e",
-	"name" : "seadash-panel_copy_res",
+	"id" : "seadash-panel_app_qmllint::@18e0e70756799d14a71e",
+	"name" : "seadash-panel_app_qmllint",
 	"paths" : 
 	{
 		"build" : "seadash-panel",
@@ -76,8 +82,7 @@
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				1,
-				2
+				1
 			]
 		}
 	],
@@ -86,19 +91,13 @@
 		{
 			"backtrace" : 5,
 			"isGenerated" : true,
-			"path" : "out/build/debug/seadash-panel/CMakeFiles/seadash-panel_copy_res",
+			"path" : "out/build/debug/seadash-panel/CMakeFiles/seadash-panel_app_qmllint",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "out/build/debug/seadash-panel/CMakeFiles/seadash-panel_copy_res.rule",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "out/build/debug/seadash-panel/.qt/seadash-panel_res.txt.rule",
+			"path" : "out/build/debug/seadash-panel/CMakeFiles/seadash-panel_app_qmllint.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

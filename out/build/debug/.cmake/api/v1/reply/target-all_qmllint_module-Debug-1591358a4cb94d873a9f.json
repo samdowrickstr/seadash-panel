@@ -28,7 +28,7 @@
 			{
 				"command" : 6,
 				"file" : 2,
-				"line" : 32,
+				"line" : 35,
 				"parent" : 0
 			},
 			{
@@ -85,7 +85,7 @@
 	[
 		{
 			"backtrace" : 9,
-			"id" : "seadash-panel_qmllint_module::@18e0e70756799d14a71e"
+			"id" : "seadash-panel_app_qmllint_module::@18e0e70756799d14a71e"
 		}
 	],
 	"folder" : 

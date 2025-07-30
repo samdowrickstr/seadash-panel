@@ -23,7 +23,7 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 32,
+				"line" : 35,
 				"parent" : 0
 			},
 			{
@@ -62,8 +62,8 @@
 	{
 		"name" : "QtInternalTargets/QmlLinter"
 	},
-	"id" : "seadash-panel_qmllint_json::@18e0e70756799d14a71e",
-	"name" : "seadash-panel_qmllint_json",
+	"id" : "seadash-panel_app_qmllint_json::@18e0e70756799d14a71e",
+	"name" : "seadash-panel_app_qmllint_json",
 	"paths" : 
 	{
 		"build" : "seadash-panel",
@@ -91,13 +91,13 @@
 		{
 			"backtrace" : 5,
 			"isGenerated" : true,
-			"path" : "out/build/debug/seadash-panel/CMakeFiles/seadash-panel_qmllint_json",
+			"path" : "out/build/debug/seadash-panel/CMakeFiles/seadash-panel_app_qmllint_json",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "out/build/debug/seadash-panel/CMakeFiles/seadash-panel_qmllint_json.rule",
+			"path" : "out/build/debug/seadash-panel/CMakeFiles/seadash-panel_app_qmllint_json.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

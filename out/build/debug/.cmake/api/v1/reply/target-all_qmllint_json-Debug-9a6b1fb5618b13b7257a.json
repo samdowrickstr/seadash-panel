@@ -28,7 +28,7 @@
 			{
 				"command" : 6,
 				"file" : 2,
-				"line" : 32,
+				"line" : 35,
 				"parent" : 0
 			},
 			{
@@ -52,7 +52,7 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 1577,
+				"line" : 1579,
 				"parent" : 4
 			},
 			{
@@ -85,15 +85,15 @@
 	[
 		{
 			"backtrace" : 9,
-			"id" : "seadash-panel_qmllint::@18e0e70756799d14a71e"
+			"id" : "seadash-panel_app_qmllint_json::@18e0e70756799d14a71e"
 		}
 	],
 	"folder" : 
 	{
 		"name" : "QtInternalTargets/QmlLinter"
 	},
-	"id" : "all_qmllint::@18e0e70756799d14a71e",
-	"name" : "all_qmllint",
+	"id" : "all_qmllint_json::@18e0e70756799d14a71e",
+	"name" : "all_qmllint_json",
 	"paths" : 
 	{
 		"build" : "seadash-panel",

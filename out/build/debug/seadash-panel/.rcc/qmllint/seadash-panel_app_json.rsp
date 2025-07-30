@@ -1,0 +1,12 @@
+--bare
+-I
+C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel
+-I
+C:/Qt/6.9.1/msvc2022_64/qml
+--resource
+C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel/.qt/rcc/qmake_seadash-panel.qrc
+--resource
+C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel/.qt/rcc/seadash-panel_app_raw_qml_0.qrc
+C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/seadash-panel/TitleBarWindow.qml
+--json
+C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel_app_qmllint.json

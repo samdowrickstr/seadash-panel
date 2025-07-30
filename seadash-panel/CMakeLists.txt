@@ -6,12 +6,15 @@ include(qt.cmake)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Core Widgets)
+find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Core Widgets Gui)
 find_package(Qt${QT_VERSION_MAJOR}
     REQUIRED COMPONENTS
-        Quick
+        Core
         Widgets
+        Gui
+        Quick
 )
+
 qt_standard_project_setup()
 
 set(PROJECT_SOURCES
@@ -29,7 +32,7 @@ endif()
 qt_add_executable(${PROJECT_NAME}_app ${PROJECT_SOURCES})
 
 if(QT_VERSION VERSION_GREATER_EQUAL 6.2)
-    qt_add_qml_module(${PROJECT_NAME}
+    qt_add_qml_module(${PROJECT_NAME}_app
         URI seadash-panel
         VERSION 1.0
         RESOURCE_PREFIX "/qt/qml/"
@@ -38,18 +41,18 @@ if(QT_VERSION VERSION_GREATER_EQUAL 6.2)
     )
 endif()
 
-set_target_properties(${PROJECT_NAME}
+set_target_properties(${PROJECT_NAME}_app
     PROPERTIES
         WIN32_EXECUTABLE TRUE
 )
 
-target_link_libraries(${PROJECT_NAME}
+target_link_libraries(${PROJECT_NAME}_app
     PUBLIC
         Qt::Quick
         Qt::Widgets
+        Qt::Gui
 )
 
-
 if(Qt6_FOUND)
-    qt_import_qml_plugins(${PROJECT_NAME})
+    qt_import_qml_plugins(${PROJECT_NAME}_app)
 endif()
