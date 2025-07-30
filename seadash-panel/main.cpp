@@ -1,16 +1,28 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
+#include <QQmlContext>
+
+#include "QtAwesome/QtAwesome.h"
 
 int main(int argc, char *argv[])
 {
-#if defined(Q_OS_WIN) && QT_VERSION_CHECK(5, 6, 0) <= QT_VERSION && QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
+#if QT_VERSION < QT_VERSION_CHECK(6,0,0)
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 #endif
 
     QGuiApplication app(argc, argv);
 
+    // Initialize FontAwesome
+    fa::QtAwesome awesome;
+    awesome.initFontAwesome();
+
     QQmlApplicationEngine engine;
-    engine.load(QUrl(QStringLiteral("qrc:/qt/qml/seadash-panel/main.qml")));
+    engine.rootContext()->setContextProperty("qtawesome", &awesome);
+    engine.rootContext()->setContextProperty("faSolidFontFamily", awesome.fontName(fa::fa_solid));
+    engine.rootContext()->setContextProperty("faRegularFontFamily", awesome.fontName(fa::fa_regular));
+    engine.rootContext()->setContextProperty("faBrandsFontFamily", awesome.fontName(fa::fa_brands));
+
+    engine.load(QUrl(QStringLiteral("qrc:/qml/TitleBarWindow.qml")));
     if (engine.rootObjects().isEmpty())
         return -1;
 
