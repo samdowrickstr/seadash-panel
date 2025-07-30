@@ -1,0 +1,28 @@
+[
+    {
+        "classes": [
+            {
+                "className": "AppLauncher",
+                "lineNumber": 6,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "launchChartApp",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "AppLauncher",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "AppLauncher.h",
+        "outputRevision": 69
+    }
+]

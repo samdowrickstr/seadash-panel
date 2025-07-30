@@ -1,0 +1,214 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						5
+					]
+				},
+				{
+					"build" : "seadash-panel",
+					"jsonFile" : "directory-seadash-panel-Debug-090e334381eb6179e390.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "seadash-panel",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "seadash-panel",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-f20e246a15d73b168db2.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "all_qmllint::@18e0e70756799d14a71e",
+					"jsonFile" : "target-all_qmllint-Debug-9d08325491b5c8dfe4f4.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "all_qmllint_json::@18e0e70756799d14a71e",
+					"jsonFile" : "target-all_qmllint_json-Debug-5f99376d1fa75a9c5cf5.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "all_qmllint_module::@18e0e70756799d14a71e",
+					"jsonFile" : "target-all_qmllint_module-Debug-22e6b5c9911c965a0a71.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "all_qmltyperegistrations::@18e0e70756799d14a71e",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-3b24a154eeb23ed9472b.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_seadash-panel_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_seadash-panel_aotstats_target-Debug-2e7e78e3a68f83233040.json",
+					"name" : "module_seadash-panel_aotstats_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "seadash-panel::@18e0e70756799d14a71e",
+					"jsonFile" : "target-seadash-panel-Debug-73f9f5832cddead79ff3.json",
+					"name" : "seadash-panel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "seadash-panel_autogen::@18e0e70756799d14a71e",
+					"jsonFile" : "target-seadash-panel_autogen-Debug-981416709f0dba2c9b7d.json",
+					"name" : "seadash-panel_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "seadash-panel_autogen_timestamp_deps::@18e0e70756799d14a71e",
+					"jsonFile" : "target-seadash-panel_autogen_timestamp_deps-Debug-0471e3562f9297996c6e.json",
+					"name" : "seadash-panel_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "seadash-panel_copy_qml::@18e0e70756799d14a71e",
+					"jsonFile" : "target-seadash-panel_copy_qml-Debug-d7df2de06670f09dab7f.json",
+					"name" : "seadash-panel_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "seadash-panel_copy_res::@18e0e70756799d14a71e",
+					"jsonFile" : "target-seadash-panel_copy_res-Debug-d0eb783c7a0e624d8da9.json",
+					"name" : "seadash-panel_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "seadash-panel_qmlimportscan::@18e0e70756799d14a71e",
+					"jsonFile" : "target-seadash-panel_qmlimportscan-Debug-a1d35ccb2e9133f29ba6.json",
+					"name" : "seadash-panel_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "seadash-panel_qmllint::@18e0e70756799d14a71e",
+					"jsonFile" : "target-seadash-panel_qmllint-Debug-53f818715062ad1e0f0c.json",
+					"name" : "seadash-panel_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "seadash-panel_qmllint_json::@18e0e70756799d14a71e",
+					"jsonFile" : "target-seadash-panel_qmllint_json-Debug-a51ae2ed80a99759ba43.json",
+					"name" : "seadash-panel_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "seadash-panel_qmllint_module::@18e0e70756799d14a71e",
+					"jsonFile" : "target-seadash-panel_qmllint_module-Debug-ab9d8fffc21a0f567c9e.json",
+					"name" : "seadash-panel_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "seadash-panel_qmltyperegistration::@18e0e70756799d14a71e",
+					"jsonFile" : "target-seadash-panel_qmltyperegistration-Debug-b8732b2c1ebdfa9d45cf.json",
+					"name" : "seadash-panel_qmltyperegistration",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug",
+		"source" : "C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
