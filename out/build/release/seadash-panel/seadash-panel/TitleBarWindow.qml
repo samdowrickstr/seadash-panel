@@ -169,7 +169,7 @@ Window {
             // icon
             Label {
                 text: "\ue545"
-                font.family: faSolidFontFamily
+                font.family: "Font Awesome 6 Free"
                 font.pixelSize: 32
                 color: "white"
                 // take full width, then center
