@@ -22,7 +22,7 @@ set(PROJECT_SOURCES
 
 if(QT_VERSION VERSION_LESS 5.15)
     qt5_add_resources(PROJECT_SOURCES qml.qrc QtAwesome/QtAwesomeFree.qrc)
-elseif(QT_VERSION VERSION_LESS 6.2)
+else()
     qt_add_resources(PROJECT_SOURCES qml.qrc QtAwesome/QtAwesomeFree.qrc)
 endif()
 

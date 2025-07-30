@@ -14,11 +14,19 @@ seadash-panel_autogen/timestamp: \
 	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake \
 	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckFlagCommonConfig.cmake \
 	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake \
+	C:/Qt/6.9.1/msvc2022_64/include/QtCore/QMap \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/QObject \
+	C:/Qt/6.9.1/msvc2022_64/include/QtCore/QRect \
+	C:/Qt/6.9.1/msvc2022_64/include/QtCore/QString \
+	C:/Qt/6.9.1/msvc2022_64/include/QtCore/QVariant \
+	C:/Qt/6.9.1/msvc2022_64/include/QtCore/QVariantMap \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/q17memory.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/q20functional.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtCore/q20iterator.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/q20memory.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/q20type_traits.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtCore/q20utility.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtCore/q23utility.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qalgorithms.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qanystringview.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qarraydata.h \
@@ -43,8 +51,11 @@ seadash-panel_autogen/timestamp: \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qcontainerfwd.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qcontainerinfo.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qcontainertools_impl.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qcontiguouscache.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qdarwinhelpers.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qdatastream.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qdebug.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qendian.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qexceptionhandling.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qflags.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qfloat16.h \
@@ -54,14 +65,18 @@ seadash-panel_autogen/timestamp: \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qgenericatomic.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qglobal.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qglobalstatic.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qhash.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qhashfunctions.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qiodevicebase.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qiterable.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qiterator.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qlatin1stringview.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qline.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qlist.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qlogging.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qmalloc.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qmap.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qmargins.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qmath.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qmetacontainer.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qmetatype.h \
@@ -74,10 +89,19 @@ seadash-panel_autogen/timestamp: \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qobjectdefs_impl.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qoverload.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qpair.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qpoint.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qprocessordetection.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qrect.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qrefcount.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qscopedpointer.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qscopeguard.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qset.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qshareddata.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qshareddata_impl.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qsharedpointer.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qsharedpointer_impl.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qsize.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qspan.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qstdlibdetection.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qstring.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qstringalgorithms.h \
@@ -103,6 +127,7 @@ seadash-panel_autogen/timestamp: \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qtdeprecationdefinitions.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qtdeprecationmarkers.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qtenvironmentvariables.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qtextstream.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qtformat_impl.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qtmetamacros.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qtnoop.h \
@@ -115,9 +140,40 @@ seadash-panel_autogen/timestamp: \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qtypeinfo.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qtypes.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qutf8stringview.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qvariant.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qvariantmap.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qvarlengtharray.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qversiontagging.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qxptype_traits.h \
 	C:/Qt/6.9.1/msvc2022_64/include/QtCore/qyieldcpu.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtGui/QIcon \
+	C:/Qt/6.9.1/msvc2022_64/include/QtGui/QIconEngine \
+	C:/Qt/6.9.1/msvc2022_64/include/QtGui/QPainter \
+	C:/Qt/6.9.1/msvc2022_64/include/QtGui/qbrush.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtGui/qcolor.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtGui/qfont.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtGui/qfontinfo.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtGui/qfontmetrics.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtGui/qfontvariableaxis.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtGui/qicon.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtGui/qiconengine.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtGui/qimage.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtGui/qpaintdevice.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtGui/qpainter.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtGui/qpen.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtGui/qpixelformat.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtGui/qpixmap.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtGui/qpolygon.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtGui/qregion.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtGui/qrgb.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtGui/qrgba64.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtGui/qtextoption.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtGui/qtgui-config.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtGui/qtguiexports.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtGui/qtguiglobal.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtGui/qtransform.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtGui/qwindowdefs.h \
+	C:/Qt/6.9.1/msvc2022_64/include/QtGui/qwindowdefs_win.h \
 	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6/FindWrapAtomic.cmake \
 	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake \
 	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake \
@@ -1064,6 +1120,38 @@ seadash-panel_autogen/timestamp: \
 	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets-relwithdebinfo.cmake \
 	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets.cmake \
 	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsVersionlessTargets.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginConfig.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets-debug.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-debug.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateAdditionalTargetInfo.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfig.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfigVersion.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfigVersionImpl.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateDependencies.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateTargets.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateVersionlessAliasTargets.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-debug.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
+	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
 	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateAdditionalTargetInfo.cmake \
 	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfig.cmake \
 	C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersion.cmake \
@@ -1074,6 +1162,13 @@ seadash-panel_autogen/timestamp: \
 	C:/Users/Sam.Dowrick/Documents/GitHub/MFDLauncher/MFDLauncher/AppLauncher.h \
 	C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel/.qt/qml_imports/seadash-panel_conf.cmake \
 	C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/seadash-panel/CMakeLists.txt \
+	C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/seadash-panel/QtAwesome/QtAwesome.cpp \
+	C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/seadash-panel/QtAwesome/QtAwesome.h \
+	C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/seadash-panel/QtAwesome/QtAwesomeAnim.cpp \
+	C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/seadash-panel/QtAwesome/QtAwesomeAnim.h \
+	C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/seadash-panel/QtAwesome/QtAwesomeEnumGenerated.h \
+	C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/seadash-panel/QtAwesome/QtAwesomeFree.qrc \
 	C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/seadash-panel/main.cpp \
+	C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/seadash-panel/qml.qrc \
 	C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/seadash-panel/qt.cmake \
 	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe

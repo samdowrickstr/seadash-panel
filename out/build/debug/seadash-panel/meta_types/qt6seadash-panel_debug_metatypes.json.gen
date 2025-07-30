@@ -2,6 +2,66 @@
     {
         "classes": [
             {
+                "className": "QtAwesome",
+                "lineNumber": 87,
+                "object": true,
+                "qualifiedClassName": "fa::QtAwesome",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "defaultOptionsReset",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "name": "resetDefaultOptions",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "QtAwesome.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "QtAwesomeAnimation",
+                "lineNumber": 15,
+                "object": true,
+                "qualifiedClassName": "fa::QtAwesomeAnimation",
+                "slots": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "update",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "QtAwesomeAnim.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
                 "className": "AppLauncher",
                 "lineNumber": 6,
                 "methods": [

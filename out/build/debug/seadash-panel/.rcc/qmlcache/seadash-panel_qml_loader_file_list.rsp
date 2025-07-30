@@ -2,4 +2,4 @@
 C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel/.qt/rcc/qmake_seadash-panel.qrc
 --resource
 C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/out/build/debug/seadash-panel/.qt/rcc/seadash-panel_raw_qml_0.qrc
-/qt/qml/seadash-panel/main.qml
+/qt/qml/seadash-panel/TitleBarWindow.qml
