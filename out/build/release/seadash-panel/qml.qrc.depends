@@ -7,4 +7,10 @@
         <file>QtAwesome/fonts/Font Awesome 6 Free-Regular-400.otf</file>
         <file>QtAwesome/fonts/Font Awesome 6 Free-Solid-900.otf</file>
     </qresource>
+    <qresource prefix="/icons">
+        <file>images/bluetooth-brands-solid-full.svg</file>
+        <file>images/gear-solid-full.svg</file>
+        <file>images/location-dot-solid-full.svg</file>
+        <file>images/wifi-solid-full.svg</file>
+    </qresource>
 </RCC>

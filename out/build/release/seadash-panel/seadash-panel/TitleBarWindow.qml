@@ -46,7 +46,7 @@ Window {
                         Label {
                             anchors.verticalCenter: parent.verticalCenter
                             text: "\uf3c5"
-                            font.family: faSolidFontFamily
+                            font.family: "Font Awesome 6 Free"
                             font.pixelSize: 22
                             color: "white"
                         }
@@ -106,7 +106,7 @@ Window {
                         Label {
                             anchors.centerIn: parent
                             text: "\uf293" // Bluetooth
-                            font.family: faSolidFontFamily
+                            font.family: "Font Awesome 6 Free"
                             font.pixelSize: 20
                             color: "white"
                         }
@@ -121,7 +121,7 @@ Window {
                         Label {
                             anchors.centerIn: parent
                             text: "\uf1eb" // Wi-Fi
-                            font.family: faSolidFontFamily
+                            font.family: "Font Awesome 6 Free"
                             font.pixelSize: 20
                             color: "white"
                         }
@@ -136,7 +136,7 @@ Window {
                         Label {
                             anchors.centerIn: parent
                             text: "\uf013" // Settings
-                            font.family: faSolidFontFamily
+                            font.family: "Font Awesome 6 Free"
                             font.pixelSize: 20
                             color: "white"
                         }
