@@ -1,16 +1,13 @@
 <RCC>
     <qresource prefix="/qml">
         <file>TitleBarWindow.qml</file>
-    </qresource>
-    <qresource prefix="/fonts">
-        <file>QtAwesome/fonts/Font Awesome 6 Brands-Regular-400.otf</file>
-        <file>QtAwesome/fonts/Font Awesome 6 Free-Regular-400.otf</file>
-        <file>QtAwesome/fonts/Font Awesome 6 Free-Solid-900.otf</file>
+        <file>images/PersonDrowning.qml</file>
     </qresource>
     <qresource prefix="/icons">
         <file>images/bluetooth-brands-solid-full.svg</file>
         <file>images/gear-solid-full.svg</file>
         <file>images/location-dot-solid-full.svg</file>
         <file>images/wifi-solid-full.svg</file>
+        <file>images/person-drowning-solid-full.svg</file>
     </qresource>
 </RCC>

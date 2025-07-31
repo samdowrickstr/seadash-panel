@@ -2,6 +2,8 @@ import QtQuick 2.15
 import QtQuick.Controls 2.15
 import QtQuick.Layouts 1.15
 import QtQuick.Window 2.15
+import Qt5Compat.GraphicalEffects
+import QtQuick.VectorImage
 
 Window {
     objectName: "TitleBarWindow"
@@ -43,14 +45,13 @@ Window {
                         id: coordRow
                         spacing: 8
 
-                        Label {
+                        VectorImage {
                             anchors.verticalCenter: parent.verticalCenter
-                            text: "\uf3c5"
-                            font.family: "Font Awesome 6 Free"
-                            font.pixelSize: 22
-                            color: "white"
+                            source: "qrc:/icons/images/location-dot-solid-full.svg"
+                            width: 22; height: 22
+                            fillMode: Image.PreserveAspectFit
+                            preferredRendererType: VectorImage.CurveRenderer
                         }
-
                         Label {
                             anchors.verticalCenter: parent.verticalCenter
                             id: coordLabel
@@ -102,13 +103,12 @@ Window {
                         height: 24
                         onClicked: console.log("Bluetooth icon clicked")
                         cursorShape: Qt.PointingHandCursor
-
-                        Label {
+                        VectorImage {
                             anchors.centerIn: parent
-                            text: "\uf293" // Bluetooth
-                            font.family: "Font Awesome 6 Free"
-                            font.pixelSize: 20
-                            color: "white"
+                            anchors.fill: parent
+                            source: "qrc:/icons/images/bluetooth-brands-solid-full.svg"
+                            fillMode: Image.PreserveAspectFit
+                            preferredRendererType: VectorImage.CurveRenderer
                         }
                     }
 
@@ -118,12 +118,12 @@ Window {
                         onClicked: console.log("Wi-Fi icon clicked")
                         cursorShape: Qt.PointingHandCursor
 
-                        Label {
+                        VectorImage {
                             anchors.centerIn: parent
-                            text: "\uf1eb" // Wi-Fi
-                            font.family: "Font Awesome 6 Free"
-                            font.pixelSize: 20
-                            color: "white"
+                            anchors.fill: parent
+                            source: "qrc:/icons/images/wifi-solid-full.svg"
+                            fillMode: Image.PreserveAspectFit
+                            preferredRendererType: VectorImage.CurveRenderer
                         }
                     }
 
@@ -133,12 +133,12 @@ Window {
                         onClicked: console.log("Settings icon clicked")
                         cursorShape: Qt.PointingHandCursor
 
-                        Label {
+                        VectorImage {
                             anchors.centerIn: parent
-                            text: "\uf013" // Settings
-                            font.family: "Font Awesome 6 Free"
-                            font.pixelSize: 20
-                            color: "white"
+                            anchors.fill: parent
+                            source: "qrc:/icons/images/gear-solid-full.svg"
+                            fillMode: Image.PreserveAspectFit
+                            preferredRendererType: VectorImage.CurveRenderer
                         }
                     }
                 }
@@ -167,15 +167,13 @@ Window {
             anchors.bottomMargin: 8
 
             // icon
-            Label {
-                text: "\ue545"
-                font.family: "Font Awesome 6 Free"
-                font.pixelSize: 32
-                color: "white"
-                // take full width, then center
+            VectorImage {
+                source: "qrc:/icons/images/person-drowning-solid-full.svg"
+                width: 32; height: 32
+                fillMode: Image.PreserveAspectFit
                 anchors.horizontalCenter: parent.horizontalCenter
+                preferredRendererType: VectorImage.CurveRenderer
             }
-
             // text
             Label {
                 text: "MOB"
