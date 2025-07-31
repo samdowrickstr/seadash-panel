@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 12,
-                        "durationMicroseconds": 208,
+                        "durationMicroseconds": 171,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 11
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 12,
-                        "durationMicroseconds": 155,
+                        "durationMicroseconds": 154,
                         "errorMessage": "",
                         "functionName": "flags",
                         "line": 15
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 22,
-                        "durationMicroseconds": 57,
+                        "durationMicroseconds": 52,
                         "errorMessage": "",
                         "functionName": "top",
                         "line": 19
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 47,
+                        "durationMicroseconds": 46,
                         "errorMessage": "",
                         "functionName": "left",
                         "line": 20
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 24,
-                        "durationMicroseconds": 43,
+                        "durationMicroseconds": 42,
                         "errorMessage": "",
                         "functionName": "right",
                         "line": 21
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 25,
+                        "durationMicroseconds": 27,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 26
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 35,
-                        "durationMicroseconds": 34,
+                        "durationMicroseconds": 39,
                         "errorMessage": "",
                         "functionName": "alignment",
                         "line": 31
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 28,
-                        "durationMicroseconds": 47,
+                        "durationMicroseconds": 46,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 36
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 29,
-                        "durationMicroseconds": 38,
+                        "durationMicroseconds": 36,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 37
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 34,
-                        "durationMicroseconds": 40,
+                        "durationMicroseconds": 45,
                         "errorMessage": "",
                         "functionName": "cursorShape",
                         "line": 39
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 32,
-                        "durationMicroseconds": 101,
+                        "durationMicroseconds": 81,
                         "errorMessage": "",
                         "functionName": "onClicked",
                         "line": 40
@@ -94,7 +94,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 35,
-                        "durationMicroseconds": 56,
+                        "durationMicroseconds": 58,
                         "errorMessage": "",
                         "functionName": "left",
                         "line": 34
@@ -102,34 +102,58 @@
                     {
                         "codegenSuccessful": true,
                         "column": 45,
-                        "durationMicroseconds": 46,
+                        "durationMicroseconds": 35,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 35
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 39,
-                        "durationMicroseconds": 40,
+                        "column": 53,
+                        "durationMicroseconds": 44,
                         "errorMessage": "",
-                        "functionName": "fillMode",
-                        "line": 52
+                        "functionName": "verticalCenter",
+                        "line": 49
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 52,
-                        "durationMicroseconds": 38,
+                        "column": 43,
+                        "durationMicroseconds": 47,
+                        "errorMessage": "",
+                        "functionName": "fillMode",
+                        "line": 55
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 56,
+                        "durationMicroseconds": 30,
                         "errorMessage": "",
                         "functionName": "preferredRendererType",
+                        "line": 56
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 47,
+                        "durationMicroseconds": 31,
+                        "errorMessage": "",
+                        "functionName": "fill",
                         "line": 53
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 53,
-                        "durationMicroseconds": 42,
+                        "column": 41,
+                        "durationMicroseconds": 39,
                         "errorMessage": "",
-                        "functionName": "verticalCenter",
-                        "line": 49
+                        "functionName": "source",
+                        "line": 60
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 47,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 59
                     },
                     {
                         "codegenSuccessful": false,
@@ -137,31 +161,31 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"verticalCenter\".",
                         "functionName": "verticalCenter",
-                        "line": 56
+                        "line": 65
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 46,
-                        "durationMicroseconds": 159,
+                        "durationMicroseconds": 155,
                         "errorMessage": "",
                         "functionName": "currentTime",
-                        "line": 71
+                        "line": 80
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 35,
-                        "durationMicroseconds": 54,
+                        "durationMicroseconds": 49,
                         "errorMessage": "",
                         "functionName": "alignment",
-                        "line": 69
+                        "line": 78
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 34,
-                        "durationMicroseconds": 181,
+                        "durationMicroseconds": 155,
                         "errorMessage": "",
                         "functionName": "onTriggered",
-                        "line": 77
+                        "line": 86
                     },
                     {
                         "codegenSuccessful": false,
@@ -169,7 +193,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"text\".",
                         "functionName": "text",
-                        "line": 85
+                        "line": 94
                     },
                     {
                         "codegenSuccessful": false,
@@ -177,39 +201,39 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"centerIn\".",
                         "functionName": "centerIn",
-                        "line": 84
+                        "line": 93
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 35,
-                        "durationMicroseconds": 38,
+                        "durationMicroseconds": 37,
                         "errorMessage": "",
                         "functionName": "alignment",
-                        "line": 94
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 36,
-                        "durationMicroseconds": 60,
-                        "errorMessage": "",
-                        "functionName": "right",
-                        "line": 97
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 45,
-                        "durationMicroseconds": 36,
-                        "errorMessage": "",
-                        "functionName": "verticalCenter",
-                        "line": 98
+                        "line": 103
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 36,
                         "durationMicroseconds": 56,
                         "errorMessage": "",
+                        "functionName": "right",
+                        "line": 106
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 45,
+                        "durationMicroseconds": 35,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 107
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 36,
+                        "durationMicroseconds": 61,
+                        "errorMessage": "",
                         "functionName": "onClicked",
-                        "line": 104
+                        "line": 113
                     },
                     {
                         "codegenSuccessful": true,
@@ -217,87 +241,63 @@
                         "durationMicroseconds": 34,
                         "errorMessage": "",
                         "functionName": "cursorShape",
-                        "line": 105
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 39,
-                        "durationMicroseconds": 30,
-                        "errorMessage": "",
-                        "functionName": "fillMode",
-                        "line": 110
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 52,
-                        "durationMicroseconds": 47,
-                        "errorMessage": "",
-                        "functionName": "preferredRendererType",
-                        "line": 111
+                        "line": 114
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 47,
-                        "durationMicroseconds": 22,
+                        "durationMicroseconds": 25,
                         "errorMessage": "",
                         "functionName": "centerIn",
-                        "line": 107
+                        "line": 116
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 43,
-                        "durationMicroseconds": 25,
+                        "durationMicroseconds": 37,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 108
+                        "line": 117
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 36,
-                        "durationMicroseconds": 63,
-                        "errorMessage": "",
-                        "functionName": "onClicked",
-                        "line": 118
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 38,
-                        "durationMicroseconds": 50,
-                        "errorMessage": "",
-                        "functionName": "cursorShape",
-                        "line": 119
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 39,
-                        "durationMicroseconds": 31,
-                        "errorMessage": "",
-                        "functionName": "fillMode",
-                        "line": 125
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 52,
+                        "column": 43,
                         "durationMicroseconds": 32,
                         "errorMessage": "",
+                        "functionName": "fillMode",
+                        "line": 122
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 56,
+                        "durationMicroseconds": 26,
+                        "errorMessage": "",
                         "functionName": "preferredRendererType",
-                        "line": 126
+                        "line": 123
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 47,
                         "durationMicroseconds": 21,
                         "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 122
+                        "functionName": "fill",
+                        "line": 120
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 43,
-                        "durationMicroseconds": 18,
+                        "column": 41,
+                        "durationMicroseconds": 26,
+                        "errorMessage": "",
+                        "functionName": "source",
+                        "line": 127
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 47,
+                        "durationMicroseconds": 26,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 123
+                        "line": 126
                     },
                     {
                         "codegenSuccessful": true,
@@ -305,39 +305,95 @@
                         "durationMicroseconds": 76,
                         "errorMessage": "",
                         "functionName": "onClicked",
-                        "line": 133
+                        "line": 136
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 38,
-                        "durationMicroseconds": 34,
+                        "durationMicroseconds": 33,
                         "errorMessage": "",
                         "functionName": "cursorShape",
-                        "line": 134
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 39,
-                        "durationMicroseconds": 31,
-                        "errorMessage": "",
-                        "functionName": "fillMode",
-                        "line": 140
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 52,
-                        "durationMicroseconds": 26,
-                        "errorMessage": "",
-                        "functionName": "preferredRendererType",
-                        "line": 141
+                        "line": 137
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 47,
-                        "durationMicroseconds": 21,
+                        "durationMicroseconds": 37,
                         "errorMessage": "",
                         "functionName": "centerIn",
-                        "line": 137
+                        "line": 139
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 30,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 140
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 31,
+                        "errorMessage": "",
+                        "functionName": "fillMode",
+                        "line": 145
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 56,
+                        "durationMicroseconds": 26,
+                        "errorMessage": "",
+                        "functionName": "preferredRendererType",
+                        "line": 146
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 47,
+                        "durationMicroseconds": 20,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 143
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 25,
+                        "errorMessage": "",
+                        "functionName": "source",
+                        "line": 150
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 47,
+                        "durationMicroseconds": 46,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 149
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 36,
+                        "durationMicroseconds": 54,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 159
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 33,
+                        "errorMessage": "",
+                        "functionName": "cursorShape",
+                        "line": 160
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 47,
+                        "durationMicroseconds": 31,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 163
                     },
                     {
                         "codegenSuccessful": true,
@@ -345,71 +401,207 @@
                         "durationMicroseconds": 18,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 138
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 22,
-                        "durationMicroseconds": 46,
-                        "errorMessage": "",
-                        "functionName": "top",
-                        "line": 158
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 23,
-                        "durationMicroseconds": 36,
-                        "errorMessage": "",
-                        "functionName": "left",
-                        "line": 159
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 29,
-                        "durationMicroseconds": 51,
-                        "errorMessage": "",
-                        "functionName": "bottom",
                         "line": 164
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 27,
-                        "durationMicroseconds": 46,
-                        "errorMessage": "",
-                        "functionName": "left",
-                        "line": 165
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 28,
-                        "durationMicroseconds": 57,
-                        "errorMessage": "",
-                        "functionName": "right",
-                        "line": 166
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 27,
-                        "durationMicroseconds": 70,
+                        "column": 43,
+                        "durationMicroseconds": 37,
                         "errorMessage": "",
                         "functionName": "fillMode",
+                        "line": 169
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 56,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "",
+                        "functionName": "preferredRendererType",
+                        "line": 170
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 47,
+                        "durationMicroseconds": 30,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 167
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 27,
+                        "errorMessage": "",
+                        "functionName": "source",
+                        "line": 174
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 47,
+                        "durationMicroseconds": 26,
+                        "errorMessage": "",
+                        "functionName": "fill",
                         "line": 173
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 40,
-                        "durationMicroseconds": 44,
+                        "column": 36,
+                        "durationMicroseconds": 73,
                         "errorMessage": "",
-                        "functionName": "preferredRendererType",
-                        "line": 175
+                        "functionName": "onClicked",
+                        "line": 183
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 34,
+                        "errorMessage": "",
+                        "functionName": "cursorShape",
+                        "line": 184
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 47,
+                        "durationMicroseconds": 22,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 187
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 43,
-                        "durationMicroseconds": 39,
+                        "durationMicroseconds": 18,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 188
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 31,
+                        "errorMessage": "",
+                        "functionName": "fillMode",
+                        "line": 193
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 56,
+                        "durationMicroseconds": 26,
+                        "errorMessage": "",
+                        "functionName": "preferredRendererType",
+                        "line": 194
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 47,
+                        "durationMicroseconds": 19,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 191
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 25,
+                        "errorMessage": "",
+                        "functionName": "source",
+                        "line": 198
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 47,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 197
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 41,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 217
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 43,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 218
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 29,
+                        "durationMicroseconds": 36,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 223
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 60,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 224
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 46,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 225
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 37,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
-                        "line": 174
+                        "line": 231
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "",
+                        "functionName": "fillMode",
+                        "line": 236
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 44,
+                        "durationMicroseconds": 31,
+                        "errorMessage": "",
+                        "functionName": "preferredRendererType",
+                        "line": 237
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 22,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 234
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 29,
+                        "durationMicroseconds": 25,
+                        "errorMessage": "",
+                        "functionName": "source",
+                        "line": 241
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 30,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 240
                     },
                     {
                         "codegenSuccessful": false,
@@ -417,31 +609,31 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"horizontalCenter\".",
                         "functionName": "horizontalCenter",
-                        "line": 182
+                        "line": 250
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 24,
-                        "durationMicroseconds": 56,
+                        "durationMicroseconds": 79,
                         "errorMessage": "",
                         "functionName": "onClicked",
-                        "line": 188
+                        "line": 256
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 26,
-                        "durationMicroseconds": 33,
+                        "durationMicroseconds": 34,
                         "errorMessage": "",
                         "functionName": "cursorShape",
-                        "line": 189
+                        "line": 257
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 21,
+                        "durationMicroseconds": 63,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 187
+                        "line": 255
                     }
                 ],
                 "filePath": "C:/Users/Sam.Dowrick/Documents/GitHub/seadash-panel/seadash-panel/TitleBarWindow.qml"

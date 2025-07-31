@@ -4,7 +4,6 @@ import QtQuick.Layouts 1.15
 import QtQuick.Window 2.15
 import Qt5Compat.GraphicalEffects
 import QtQuick.VectorImage
-import QtQuick.Effects 1.15
 
 Window {
     objectName: "TitleBarWindow"
@@ -107,6 +106,29 @@ Window {
                     anchors.right: parent.right
                     anchors.verticalCenter: parent.verticalCenter
                     spacing: 10
+
+                    MouseArea {
+                        width: 24
+                        height: 24
+                        onClicked: console.log("Brightness icon clicked")
+                        cursorShape: Qt.PointingHandCursor
+                        Item {
+                            anchors.centerIn: parent
+                            anchors.fill: parent
+                            VectorImage {
+                                id: brightnessIcon
+                                anchors.fill: parent
+                                source: "qrc:/icons/images/brightness.svg"
+                                fillMode: Image.PreserveAspectFit
+                                preferredRendererType: VectorImage.CurveRenderer
+                            }
+                            ColorOverlay {
+                                anchors.fill: brightnessIcon
+                                source: brightnessIcon
+                                color: "white"
+                            }
+                        }
+                    }
 
                     MouseArea {
                         width: 24
