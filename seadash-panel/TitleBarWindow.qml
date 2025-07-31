@@ -9,6 +9,12 @@ import QtQuick.Effects 1.15
 Window {
     objectName: "TitleBarWindow"
     id: titleBarWindow
+    // Indicates whether the UI is in day mode (true) or night mode (false)
+    property bool dayMode: false
+    // Helper function returning the appropriate foreground colour
+    function fgColor(onRed) {
+        return dayMode ? (onRed ? "black" : "#8b0000") : "white";
+    }
     width: Screen.width
     height: 90
     visible: true
@@ -59,14 +65,14 @@ Window {
                             ColorOverlay {
                                 anchors.fill: locationIcon
                                 source: locationIcon
-                                color: "white"
+                                color: titleBarWindow.fgColor(false)
                             }
                         }
                         Label {
                             anchors.verticalCenter: parent.verticalCenter
                             id: coordLabel
                             text: "50\u00B043.599'N 000\u00B032.461'W"
-                            color: "white"
+                            color: titleBarWindow.fgColor(false)
                             font.pixelSize: 22
                         }
                     }
@@ -93,7 +99,7 @@ Window {
                 Label {
                     anchors.centerIn: parent
                     text: clockItem.currentTime
-                    color: "white"
+                    color: titleBarWindow.fgColor(false)
                     font.pixelSize: 22
                 }
             }
@@ -126,7 +132,7 @@ Window {
                             ColorOverlay {
                                 anchors.fill: bluetoothIcon
                                 source: bluetoothIcon
-                                color: "white"
+                                color: titleBarWindow.fgColor(false)
                             }
                         }
                     }
@@ -150,8 +156,24 @@ Window {
                             ColorOverlay {
                                 anchors.fill: wifiIcon
                                 source: wifiIcon
-                                color: "white"
+                                color: titleBarWindow.fgColor(false)
                             }
+                        }
+                    }
+
+                    // Brightness toggle button
+                    MouseArea {
+                        width: 24
+                        height: 24
+                        onClicked: titleBarWindow.dayMode = !titleBarWindow.dayMode
+                        cursorShape: Qt.PointingHandCursor
+
+                        Text {
+                            anchors.centerIn: parent
+                            text: titleBarWindow.dayMode ? "\uf185" : "\uf186"
+                            font.family: faSolidFontFamily
+                            font.pixelSize: 22
+                            color: titleBarWindow.fgColor(false)
                         }
                     }
 
@@ -174,7 +196,7 @@ Window {
                             ColorOverlay {
                                 anchors.fill: settingsIcon
                                 source: settingsIcon
-                                color: "white"
+                                color: titleBarWindow.fgColor(false)
                             }
                         }
                     }
@@ -217,14 +239,14 @@ Window {
                 ColorOverlay {
                     anchors.fill: mobIcon
                     source: mobIcon
-                    color: "white"
+                    color: titleBarWindow.fgColor(true)
                 }
             }
             // text
             Label {
                 text: "MOB"
                 font.pixelSize: 22
-                color: "white"
+                color: titleBarWindow.fgColor(true)
                 anchors.horizontalCenter: parent.horizontalCenter
             }
         }
