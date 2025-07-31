@@ -46,12 +46,21 @@ Window {
                         id: coordRow
                         spacing: 8
 
-                        VectorImage {
+                        Item {
                             anchors.verticalCenter: parent.verticalCenter
-                            source: "qrc:/icons/images/location-dot-solid-full.svg"
                             width: 22; height: 22
-                            fillMode: Image.PreserveAspectFit
-                            preferredRendererType: VectorImage.CurveRenderer
+                            VectorImage {
+                                id: locationIcon
+                                anchors.fill: parent
+                                source: "qrc:/icons/images/location-dot-solid-full.svg"
+                                fillMode: Image.PreserveAspectFit
+                                preferredRendererType: VectorImage.CurveRenderer
+                            }
+                            ColorOverlay {
+                                anchors.fill: locationIcon
+                                source: locationIcon
+                                color: "white"
+                            }
                         }
                         Label {
                             anchors.verticalCenter: parent.verticalCenter
@@ -104,12 +113,21 @@ Window {
                         height: 24
                         onClicked: console.log("Bluetooth icon clicked")
                         cursorShape: Qt.PointingHandCursor
-                        VectorImage {
+                        Item {
                             anchors.centerIn: parent
                             anchors.fill: parent
-                            source: "qrc:/icons/images/bluetooth-brands-solid-full.svg"
-                            fillMode: Image.PreserveAspectFit
-                            preferredRendererType: VectorImage.CurveRenderer
+                            VectorImage {
+                                id: bluetoothIcon
+                                anchors.fill: parent
+                                source: "qrc:/icons/images/bluetooth-brands-solid-full.svg"
+                                fillMode: Image.PreserveAspectFit
+                                preferredRendererType: VectorImage.CurveRenderer
+                            }
+                            ColorOverlay {
+                                anchors.fill: bluetoothIcon
+                                source: bluetoothIcon
+                                color: "white"
+                            }
                         }
                     }
 
@@ -119,12 +137,21 @@ Window {
                         onClicked: console.log("Wi-Fi icon clicked")
                         cursorShape: Qt.PointingHandCursor
 
-                        VectorImage {
+                        Item {
                             anchors.centerIn: parent
                             anchors.fill: parent
-                            source: "qrc:/icons/images/wifi-solid-full.svg"
-                            fillMode: Image.PreserveAspectFit
-                            preferredRendererType: VectorImage.CurveRenderer
+                            VectorImage {
+                                id: wifiIcon
+                                anchors.fill: parent
+                                source: "qrc:/icons/images/wifi-solid-full.svg"
+                                fillMode: Image.PreserveAspectFit
+                                preferredRendererType: VectorImage.CurveRenderer
+                            }
+                            ColorOverlay {
+                                anchors.fill: wifiIcon
+                                source: wifiIcon
+                                color: "white"
+                            }
                         }
                     }
 
@@ -134,12 +161,21 @@ Window {
                         onClicked: console.log("Settings icon clicked")
                         cursorShape: Qt.PointingHandCursor
 
-                        VectorImage {
+                        Item {
                             anchors.centerIn: parent
                             anchors.fill: parent
-                            source: "qrc:/icons/images/gear-solid-full.svg"
-                            fillMode: Image.PreserveAspectFit
-                            preferredRendererType: VectorImage.CurveRenderer
+                            VectorImage {
+                                id: settingsIcon
+                                anchors.fill: parent
+                                source: "qrc:/icons/images/gear-solid-full.svg"
+                                fillMode: Image.PreserveAspectFit
+                                preferredRendererType: VectorImage.CurveRenderer
+                            }
+                            ColorOverlay {
+                                anchors.fill: settingsIcon
+                                source: settingsIcon
+                                color: "white"
+                            }
                         }
                     }
                 }
@@ -168,12 +204,21 @@ Window {
             anchors.bottomMargin: 8
 
             // icon
-            VectorImage {
-                source: "qrc:/icons/images/person-drowning-solid-full.svg"
+            Item {
                 width: 32; height: 32
-                fillMode: Image.PreserveAspectFit
                 anchors.horizontalCenter: parent.horizontalCenter
-                preferredRendererType: VectorImage.CurveRenderer
+                VectorImage {
+                    id: mobIcon
+                    anchors.fill: parent
+                    source: "qrc:/icons/images/person-drowning-solid-full.svg"
+                    fillMode: Image.PreserveAspectFit
+                    preferredRendererType: VectorImage.CurveRenderer
+                }
+                ColorOverlay {
+                    anchors.fill: mobIcon
+                    source: mobIcon
+                    color: "white"
+                }
             }
             // text
             Label {
