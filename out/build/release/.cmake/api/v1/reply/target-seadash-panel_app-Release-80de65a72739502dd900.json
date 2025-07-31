@@ -447,6 +447,47 @@
 				"parent" : 67
 			},
 			{
+				"file" : 1,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 19,
+				"file" : 25,
+				"line" : 1,
+				"parent" : 69
+			},
+			{
+				"command" : 18,
+				"file" : 0,
+				"line" : 818,
+				"parent" : 70
+			},
+			{
+				"command" : 17,
+				"file" : 0,
+				"line" : 740,
+				"parent" : 71
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 740,
+				"parent" : 72
+			},
+			{
+				"command" : 15,
+				"file" : 10,
+				"line" : 4401,
+				"parent" : 73
+			},
+			{
+				"command" : 12,
+				"file" : 10,
+				"line" : 4176,
+				"parent" : 74
+			},
+			{
 				"command" : 13,
 				"file" : 10,
 				"line" : 3497,
@@ -456,47 +497,6 @@
 				"command" : 12,
 				"file" : 10,
 				"line" : 2860,
-				"parent" : 69
-			},
-			{
-				"file" : 1,
-				"line" : -1,
-				"parent" : 0
-			},
-			{
-				"command" : 19,
-				"file" : 25,
-				"line" : 1,
-				"parent" : 71
-			},
-			{
-				"command" : 18,
-				"file" : 0,
-				"line" : 818,
-				"parent" : 72
-			},
-			{
-				"command" : 17,
-				"file" : 0,
-				"line" : 740,
-				"parent" : 73
-			},
-			{
-				"command" : 16,
-				"file" : 0,
-				"line" : 740,
-				"parent" : 74
-			},
-			{
-				"command" : 15,
-				"file" : 10,
-				"line" : 4401,
-				"parent" : 75
-			},
-			{
-				"command" : 12,
-				"file" : 10,
-				"line" : 4176,
 				"parent" : 76
 			},
 			{
@@ -617,7 +617,7 @@
 				"command" : 29,
 				"file" : 0,
 				"line" : 812,
-				"parent" : 72
+				"parent" : 70
 			},
 			{
 				"command" : 22,
@@ -1061,15 +1061,15 @@
 			"id" : "seadash-panel_app_copy_res::@18e0e70756799d14a71e"
 		},
 		{
-			"backtrace" : 70,
+			"backtrace" : 75,
+			"id" : "seadash-panel_app_qmlimportscan::@18e0e70756799d14a71e"
+		},
+		{
+			"backtrace" : 77,
 			"id" : "seadash-panel_app_copy_qml::@18e0e70756799d14a71e"
 		},
 		{
 			"id" : "seadash-panel_app_autogen_timestamp_deps::@18e0e70756799d14a71e"
-		},
-		{
-			"backtrace" : 77,
-			"id" : "seadash-panel_app_qmlimportscan::@18e0e70756799d14a71e"
 		},
 		{
 			"backtrace" : 0,

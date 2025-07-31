@@ -113,26 +113,19 @@ Window {
                     anchors.verticalCenter: parent.verticalCenter
                     spacing: 10
 
+                    // Brightness toggle button
                     MouseArea {
                         width: 24
                         height: 24
-                        onClicked: console.log("Brightness icon clicked")
+                        onClicked: titleBarWindow.dayMode = !titleBarWindow.dayMode
                         cursorShape: Qt.PointingHandCursor
-                        Item {
+
+                        Text {
                             anchors.centerIn: parent
-                            anchors.fill: parent
-                            VectorImage {
-                                id: brightnessIcon
-                                anchors.fill: parent
-                                source: "qrc:/icons/images/brightness.svg"
-                                fillMode: Image.PreserveAspectFit
-                                preferredRendererType: VectorImage.CurveRenderer
-                            }
-                            ColorOverlay {
-                                anchors.fill: brightnessIcon
-                                source: brightnessIcon
-                                color: "white"
-                            }
+                            text: titleBarWindow.dayMode ? "\uf185" : "\uf186"
+                            font.family: faSolidFontFamily
+                            font.pixelSize: 22
+                            color: titleBarWindow.fgColor(false)
                         }
                     }
 
@@ -180,22 +173,6 @@ Window {
                                 source: wifiIcon
                                 color: titleBarWindow.fgColor(false)
                             }
-                        }
-                    }
-
-                    // Brightness toggle button
-                    MouseArea {
-                        width: 24
-                        height: 24
-                        onClicked: titleBarWindow.dayMode = !titleBarWindow.dayMode
-                        cursorShape: Qt.PointingHandCursor
-
-                        Text {
-                            anchors.centerIn: parent
-                            text: titleBarWindow.dayMode ? "\uf185" : "\uf186"
-                            font.family: faSolidFontFamily
-                            font.pixelSize: 22
-                            color: titleBarWindow.fgColor(false)
                         }
                     }
 
