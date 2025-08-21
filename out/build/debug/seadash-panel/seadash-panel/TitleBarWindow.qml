@@ -2,10 +2,18 @@ import QtQuick 2.15
 import QtQuick.Controls 2.15
 import QtQuick.Layouts 1.15
 import QtQuick.Window 2.15
+import Qt5Compat.GraphicalEffects
+import QtQuick.VectorImage
 
 Window {
     objectName: "TitleBarWindow"
     id: titleBarWindow
+    // Indicates whether the UI is in day mode (true) or night mode (false)
+    property bool dayMode: false
+    // Helper function returning the appropriate foreground colour
+    function fgColor(onRed) {
+        return dayMode ? (onRed ? "black" : "#8b0000") : "white";
+    }
     width: Screen.width
     height: 90
     visible: true
@@ -43,19 +51,27 @@ Window {
                         id: coordRow
                         spacing: 8
 
-                        Label {
+                        Item {
                             anchors.verticalCenter: parent.verticalCenter
-                            text: "\uf3c5"
-                            font.family: faSolidFontFamily
-                            font.pixelSize: 22
-                            color: "white"
+                            width: 22; height: 22
+                            VectorImage {
+                                id: locationIcon
+                                anchors.fill: parent
+                                source: "qrc:/icons/images/location-dot-solid-full.svg"
+                                fillMode: Image.PreserveAspectFit
+                                preferredRendererType: VectorImage.CurveRenderer
+                            }
+                            ColorOverlay {
+                                anchors.fill: locationIcon
+                                source: locationIcon
+                                color: titleBarWindow.fgColor(false)
+                            }
                         }
-
                         Label {
                             anchors.verticalCenter: parent.verticalCenter
                             id: coordLabel
                             text: "50\u00B043.599'N 000\u00B032.461'W"
-                            color: "white"
+                            color: titleBarWindow.fgColor(false)
                             font.pixelSize: 22
                         }
                     }
@@ -82,7 +98,7 @@ Window {
                 Label {
                     anchors.centerIn: parent
                     text: clockItem.currentTime
-                    color: "white"
+                    color: titleBarWindow.fgColor(false)
                     font.pixelSize: 22
                 }
             }
@@ -97,18 +113,42 @@ Window {
                     anchors.verticalCenter: parent.verticalCenter
                     spacing: 10
 
+                    // Brightness toggle button
+                    MouseArea {
+                        width: 24
+                        height: 24
+                        onClicked: titleBarWindow.dayMode = !titleBarWindow.dayMode
+                        cursorShape: Qt.PointingHandCursor
+
+                        Text {
+                            anchors.centerIn: parent
+                            text: titleBarWindow.dayMode ? "\uf185" : "\uf186"
+                            font.family: faSolidFontFamily
+                            font.pixelSize: 22
+                            color: titleBarWindow.fgColor(false)
+                        }
+                    }
+
                     MouseArea {
                         width: 24
                         height: 24
                         onClicked: console.log("Bluetooth icon clicked")
                         cursorShape: Qt.PointingHandCursor
-
-                        Label {
+                        Item {
                             anchors.centerIn: parent
-                            text: "\uf293" // Bluetooth
-                            font.family: faSolidFontFamily
-                            font.pixelSize: 20
-                            color: "white"
+                            anchors.fill: parent
+                            VectorImage {
+                                id: bluetoothIcon
+                                anchors.fill: parent
+                                source: "qrc:/icons/images/bluetooth-brands-solid-full.svg"
+                                fillMode: Image.PreserveAspectFit
+                                preferredRendererType: VectorImage.CurveRenderer
+                            }
+                            ColorOverlay {
+                                anchors.fill: bluetoothIcon
+                                source: bluetoothIcon
+                                color: titleBarWindow.fgColor(false)
+                            }
                         }
                     }
 
@@ -118,12 +158,21 @@ Window {
                         onClicked: console.log("Wi-Fi icon clicked")
                         cursorShape: Qt.PointingHandCursor
 
-                        Label {
+                        Item {
                             anchors.centerIn: parent
-                            text: "\uf1eb" // Wi-Fi
-                            font.family: faSolidFontFamily
-                            font.pixelSize: 20
-                            color: "white"
+                            anchors.fill: parent
+                            VectorImage {
+                                id: wifiIcon
+                                anchors.fill: parent
+                                source: "qrc:/icons/images/wifi-solid-full.svg"
+                                fillMode: Image.PreserveAspectFit
+                                preferredRendererType: VectorImage.CurveRenderer
+                            }
+                            ColorOverlay {
+                                anchors.fill: wifiIcon
+                                source: wifiIcon
+                                color: titleBarWindow.fgColor(false)
+                            }
                         }
                     }
 
@@ -133,12 +182,21 @@ Window {
                         onClicked: console.log("Settings icon clicked")
                         cursorShape: Qt.PointingHandCursor
 
-                        Label {
+                        Item {
                             anchors.centerIn: parent
-                            text: "\uf013" // Settings
-                            font.family: faSolidFontFamily
-                            font.pixelSize: 20
-                            color: "white"
+                            anchors.fill: parent
+                            VectorImage {
+                                id: settingsIcon
+                                anchors.fill: parent
+                                source: "qrc:/icons/images/gear-solid-full.svg"
+                                fillMode: Image.PreserveAspectFit
+                                preferredRendererType: VectorImage.CurveRenderer
+                            }
+                            ColorOverlay {
+                                anchors.fill: settingsIcon
+                                source: settingsIcon
+                                color: titleBarWindow.fgColor(false)
+                            }
                         }
                     }
                 }
@@ -167,20 +225,27 @@ Window {
             anchors.bottomMargin: 8
 
             // icon
-            Label {
-                text: "\ue545"
-                font.family: faSolidFontFamily
-                font.pixelSize: 32
-                color: "white"
-                // take full width, then center
+            Item {
+                width: 32; height: 32
                 anchors.horizontalCenter: parent.horizontalCenter
+                VectorImage {
+                    id: mobIcon
+                    anchors.fill: parent
+                    source: "qrc:/icons/images/person-drowning-solid-full.svg"
+                    fillMode: Image.PreserveAspectFit
+                    preferredRendererType: VectorImage.CurveRenderer
+                }
+                ColorOverlay {
+                    anchors.fill: mobIcon
+                    source: mobIcon
+                    color: titleBarWindow.fgColor(true)
+                }
             }
-
             // text
             Label {
                 text: "MOB"
                 font.pixelSize: 22
-                color: "white"
+                color: titleBarWindow.fgColor(true)
                 anchors.horizontalCenter: parent.horizontalCenter
             }
         }
